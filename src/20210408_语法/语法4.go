@@ -12,7 +12,7 @@ func main() {
 	for _, word := range strings.Split(str, " ") {
 		_, ok := strMap[word]
 		if ok {
-			strMap[word] ++
+			strMap[word]++
 		} else {
 			strMap[word] = 1
 		}
